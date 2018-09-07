@@ -13,6 +13,10 @@ fun main(args: Array<String>) {
 }
 
 fun declareVar() {
+//    var c
+    var b: Int
+    b = 2
+
     var a = 1
     a += 2
     println(a)
@@ -56,7 +60,3 @@ fun declareVal() {
 //    }
 //
 //}
-
-
-
-//1.作为局部变量未指定类型时(val a)需要立即赋值，指定类型(val a: Int)时可以后面赋值
