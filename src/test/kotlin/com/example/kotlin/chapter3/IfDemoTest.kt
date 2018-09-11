@@ -8,7 +8,7 @@ import org.junit.runners.JUnit4
 class IfDemoTest {
     @Test
     fun maxTest() {
-        max(5, 10)
+       max(5, 10)
     }
 
     @Test

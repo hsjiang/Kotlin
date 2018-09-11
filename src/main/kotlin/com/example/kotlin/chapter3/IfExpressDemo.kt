@@ -2,7 +2,7 @@ package com.example.kotlin.chapter3
 
 //最后的表达式表示该块的值
 fun max(a: Int, b: Int): Int {
-    val max = if (a > b) {
+    val max = if (a < b) {
         println(a)
         a + 1
     } else {
