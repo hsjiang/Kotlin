@@ -4,7 +4,7 @@ fun main(array: Array<String>) {
     val max = maxReturn(15, 10)
     println("max: $max " + max::class)
 
-    sum(1,1)
+    sum(1, 1)
 
     val sumf = sumfReturn(5, 10).invoke()
     println("sumf: $sumf " + sumf::class)
@@ -30,7 +30,7 @@ fun returnDemo1() {
     println(" START " + ::returnDemo1.name)
     val intArray = intArrayOf(1, 2, 3, 4)
     intArray.forEach {
-        if (it == 3) return
+        if (it == 3) return //return@forEach
         println(it)
     }
     println(" END " + ::returnDemo1.name)
