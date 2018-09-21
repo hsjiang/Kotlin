@@ -19,3 +19,7 @@ fun formatCell(value: Double): String =
             throw IllegalArgumentException("$value is not a number")  // Nothing
         else
             value.toString()
+
+fun returnNothing(): Nothing? {
+    return null
+}

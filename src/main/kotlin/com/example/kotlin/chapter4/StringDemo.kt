@@ -22,4 +22,7 @@ fun main(args: Array<String>) {
     println(s + 10L)
     println(s + 1.20f)
     println(s + null)
+
+    val str: String = "aabbccddee"
+    str.forEach { print("$it ") }
 }
