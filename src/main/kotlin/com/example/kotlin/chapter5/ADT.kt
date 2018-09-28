@@ -11,4 +11,6 @@ fun main(args: Array<String>) {
     mutableListOf(1, 2, 3).sortWith(Comparator { x, y ->
         x.compareTo(y)
     })
+
+    val runnable = Runnable {  }
 }

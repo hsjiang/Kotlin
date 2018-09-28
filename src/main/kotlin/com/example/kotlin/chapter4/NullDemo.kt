@@ -15,3 +15,7 @@ fun main(args: Array<String>) {
 fun getLength(str: String?): Int? {
     return str?.length
 }
+
+//lateinit
+//let{}
+//Delegates.notNull()
