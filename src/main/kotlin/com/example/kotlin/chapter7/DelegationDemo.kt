@@ -33,9 +33,9 @@ class RealSubject(val name: String) : Subject {
 }
 
 class ProxySubject(private val subject: Subject) : Subject by subject {
-//    override fun hello() {
-//        subject.hello()
-//    }
+    override fun hello() {
+        subject.hello()
+    }
 }
 
 //属性委托

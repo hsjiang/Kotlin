@@ -19,6 +19,10 @@ fun main(args: Array<String>) {
 object User {
     val userName: String = "admin"
     val password: String = "123"
+
+    fun user(): String {
+        return ""
+    }
 }
 
 // 嵌套（Nested）object对象
