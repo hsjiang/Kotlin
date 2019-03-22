@@ -42,11 +42,15 @@ data class Point(val x: Int, val y: Int)
 
 operator fun Point.unaryMinus() = Point(-x, -y)
 
-data class Counter(var index: Int)
-
-operator fun Counter.plus(increment: Int): Counter {
-    return Counter(index + increment)
+data class Counter(var index: Int) {
+    operator fun plus(increment: Int): Int {
+        return index + increment
+    }
 }
+
+//operator fun Counter.plus(increment: Int): Counter {
+//    return Counter(index + increment)
+//}
 
 operator fun Counter.div(increment: Int): Counter {
     return Counter(index / increment)

@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     println(immutableMap[4])
     println(immutableMap.getValue(3))
 //    println(immutableMap.getValue(4)) //NoSuchElementException
-    println(immutableMap.getOrDefault(4, null))
+    println(immutableMap[4])
 //    immutableMap[1] = "a"
     immutableMap.entries.forEach { print("${it.key} ${it.value},") }
     println()
