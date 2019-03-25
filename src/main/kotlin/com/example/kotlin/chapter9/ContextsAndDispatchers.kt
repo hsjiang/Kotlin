@@ -5,9 +5,9 @@ import kotlinx.coroutines.*
 fun main(args: Array<String>) {
 //    testDispatchersAndThreads()
 
-//    testRunBlockingWithSpecifiedContext()
+    testRunBlockingWithSpecifiedContext()
 
-    testChildrenCoroutine()
+//    testChildrenCoroutine()
 }
 
 //协程上下文包含一个协程调度程序，他可以指定由哪个线程来执行协程
@@ -30,7 +30,7 @@ fun testDispatchersAndThreads() = runBlocking {
 
 fun log(msg: String) = println("${Thread.currentThread()} $msg")
 
-//使用runBlocking时显式地指定上下文,同时使用run函数更改协程的上下文
+//使用runBlocking时显式地指定上下文,同时使用withContext函数更改协程的上下文
 fun testRunBlockingWithSpecifiedContext() = runBlocking {
     log("$coroutineContext")
     log("${coroutineContext[Job]}")
@@ -77,11 +77,6 @@ fun testChildrenCoroutine() = runBlocking {
     jobStatus("job2: ", job2)
     delay(1000L)
     println("main: who has survived request cancellation?")
-
-    val jobs = List(1_00) {
-
-    }
-   println("${jobs.size}")
 }
 
 fun jobStatus(msg: String, job: Job?) {
