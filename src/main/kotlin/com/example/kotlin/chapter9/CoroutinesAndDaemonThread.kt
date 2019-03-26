@@ -26,7 +26,7 @@ fun coroutineDaemon() = runBlocking {
     launch(Dispatchers.Default) {
         repeat(10) { i ->
             println("im sleeping $i ...")
-            Thread.sleep(500)
+            delay(500)
         }
     }
     delay(2000)
