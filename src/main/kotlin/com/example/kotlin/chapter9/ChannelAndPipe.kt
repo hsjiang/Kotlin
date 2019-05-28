@@ -21,7 +21,7 @@ fun testChannel() = runBlocking {
     repeat(10) {
         println(channel.receive())
     }
-    println("Done!")
+    println("Done!");
 }
 
 fun testClosingAndIterationChannels() = runBlocking {
