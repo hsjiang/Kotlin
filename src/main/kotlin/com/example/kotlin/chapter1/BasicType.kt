@@ -1,7 +1,7 @@
 package com.example.kotlin.chapter1
 
 fun main() {
-
+    doubleCompare()
 }
 
 fun biaoshifangshi() {
@@ -30,4 +30,9 @@ fun autoBox() {
     val a: Int? = 1 // 一个装箱的 Int, 字面值是静态检测的
     //val b: Long? = a // error,较小的类型不能隐式转换为较大的类型
     val b: Long? = a?.toLong() // ok,显示转换
+}
+
+fun doubleCompare() {
+    println("${-0.0 == 0.0}")
+    println("${-0 == 0}")
 }
