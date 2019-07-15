@@ -17,3 +17,10 @@ fun main(args: Array<String>) {
         print("$index: $value  ")
     }
 }
+
+fun forIndices() {
+    val array = arrayOf(1, 2, 3, 4)
+    for (i in array.indices) {
+        print("${array[i]},")
+    }
+}
