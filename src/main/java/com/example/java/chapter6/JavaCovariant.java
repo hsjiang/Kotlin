@@ -33,5 +33,10 @@ public class JavaCovariant {
 
         //协变与逆变
         Collections.copy(new ArrayList<Number>(), new ArrayList<Integer>());
+
+        ArrayList<? super String> list3 = new ArrayList();
+        list3.add("");
+//        list3.add(1);
+        Object s = list3.get(1);
     }
 }

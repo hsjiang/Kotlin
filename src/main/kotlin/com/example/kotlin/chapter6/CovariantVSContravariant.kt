@@ -22,10 +22,25 @@ fun main(args: Array<String>) {
 
     copy(arrayOf<C>(), arrayOf<A>())
 
+    //类型投影，我们只可以调用返回类型为类型参数 T 的方法
+    val array: Array<out String> = arrayOf("", "")
+//    array.set(1,"")
+    array[1]
+
+    val i: Int
 }
 
 interface Source<out T> {
     fun nextT(): T
+    //type parameter T is declared as 'out' but occurs in 'in' position int type T
+//    fun addT(t:T)
+}
+
+interface Products<in T> {
+    //type parameter T is declared as 'out' but occurs in 'in' position int type T
+//    fun nextT(): T
+
+    fun addT(t: T)
 }
 
 fun demo1(str: Source<String>) {
@@ -50,4 +65,20 @@ class C : B()
 //Function<Int, *> 表示 Function<Int, out Any?>；
 //Function<*, *> 表示 Function<in Nothing, out Any?>。
 //*投影跟 Java 的原始类型类似，不过是安全的
+
+//泛型约束
+//能够替换给定类型参数的所有可能类型的集合可以由泛型约束限制
+
+//冒号之后指定的类型是上界：只有 Comparable<T> 的子类型可以替代 T
+fun <T : Comparable<T>> sort() {
+
+}
+
+//默认的上界（如果没有声明）是 Any?。在尖括号中只能指定一个上界。
+// 如果同一类型参数需要多个上界，我们需要一个单独的 where-子句
+fun <T> copyWhenGreater(list: List<T>, threshold: T): List<String>
+        where T : CharSequence,
+              T : Comparable<T> {
+    return list.filter { it > threshold }.map { it.toString() }
+}
 
