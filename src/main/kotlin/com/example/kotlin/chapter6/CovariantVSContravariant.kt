@@ -76,9 +76,6 @@ fun <T : Comparable<T>> sort() {
 
 //默认的上界（如果没有声明）是 Any?。在尖括号中只能指定一个上界。
 // 如果同一类型参数需要多个上界，我们需要一个单独的 where-子句
-fun <T> copyWhenGreater(list: List<T>, threshold: T): List<String>
-        where T : CharSequence,
-              T : Comparable<T> {
+fun <T> copyWhenGreater(list: List<T>, threshold: T): List<String> where T : CharSequence, T : Comparable<T> {
     return list.filter { it > threshold }.map { it.toString() }
 }
-

@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
 
     println(ActivityLifeState.onCreate.signal())
 
+    //
     println(enumValues<Color>().asList())
 }
 
