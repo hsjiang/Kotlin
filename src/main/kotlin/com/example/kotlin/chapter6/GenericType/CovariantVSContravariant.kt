@@ -1,4 +1,4 @@
-package com.example.kotlin.chapter6
+package com.example.kotlin.chapter6.GenericType
 
 import java.util.*
 
@@ -22,31 +22,42 @@ fun main(args: Array<String>) {
 
     copy(arrayOf<C>(), arrayOf<A>())
 
+    //使用处型变
     //类型投影，我们只可以调用返回类型为类型参数 T 的方法
-    val array: Array<out String> = arrayOf("", "")
+    val charSequence: CharSequence? = null
+    val array: Array<out CharSequence?> = arrayOf(charSequence, String())
 //    array.set(1,"")
-    array[1]
+    val e: CharSequence? = array[1]
 
-    val i: Int
 }
 
+//声明处型变
 interface Source<out T> {
     fun nextT(): T
     //type parameter T is declared as 'out' but occurs in 'in' position int type T
 //    fun addT(t:T)
 }
 
-interface Products<in T> {
-    //type parameter T is declared as 'out' but occurs in 'in' position int type T
-//    fun nextT(): T
-
-    fun addT(t: T)
-}
-
-fun demo1(str: Source<String>) {
+fun fun1(str: Source<String>) {
     val obj: Source<CharSequence> = str
 }
 
+class Products<in T> {
+    //type parameter T is declared as 'out' but occurs in 'in' position int type T
+//    fun nextT(): T {
+//    }
+
+    fun addT(t: T){
+
+    }
+}
+
+fun fun2(){
+    val p:Products<Number> = Products()
+    val double:Products<Double> = p
+}
+
+//使用处型变
 //类型投影(type projection)。其主要作用是参数作限定，避免不安全操作
 fun copy(from: Array<out B>, to: Array<in B>) {
 
