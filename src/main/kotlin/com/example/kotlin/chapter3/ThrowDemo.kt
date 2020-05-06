@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
 //    println(exception)
 }
 
+@Throws(IllegalAccessException::class)
 fun throwDemo1(msg: String): Nothing {
     throw IllegalArgumentException(msg)
 }

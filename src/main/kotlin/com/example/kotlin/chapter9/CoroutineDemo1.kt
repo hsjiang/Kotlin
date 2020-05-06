@@ -13,18 +13,10 @@ fun main(args: Array<String>) {
 
 fun firstCoroutineMethod1() = runBlocking {
     val c1 = launch {
-        delay(TimeUnit.MILLISECONDS.toMillis(3000))
+        delay(3000)
         println("hello, ")
     }
-
+//    c1.join()
+    delay(3000)
     println("world! ")
-    c1.join()
-
-    withTimeout(3000) {
-
-    }
-
-    val mills = measureTimeMillis {
-            
-    }
 }

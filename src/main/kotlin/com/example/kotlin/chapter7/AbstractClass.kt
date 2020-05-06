@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     var impl = Impl("me")
     impl.addr = "1aa"
     println(impl.addr)
+
 }
 
 abstract class AbstractClass {

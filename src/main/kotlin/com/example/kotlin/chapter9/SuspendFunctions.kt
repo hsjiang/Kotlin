@@ -1,14 +1,13 @@
 package com.example.kotlin.chapter9
 
-import kotlinx.coroutines.async
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
+import sun.rmi.server.Dispatcher
 import kotlin.system.measureTimeMillis
 
 fun main(args: Array<String>) {
 //    testSequential()
 
-    testAsync()
+//    testAsync()
 }
 
 fun testSequential() = runBlocking {

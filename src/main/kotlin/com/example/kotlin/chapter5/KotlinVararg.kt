@@ -25,9 +25,9 @@ fun main(args: Array<String>) {
     println(array::class.java)
 }
 
-fun <T> append(vararg element: T): String {
+fun <T> append(vararg elements: T): String {
     val builder = StringBuilder()
-    for (t in element) {
+    for (t in elements) {
         builder.append(t)
     }
     return builder.toString()
