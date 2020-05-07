@@ -3,7 +3,7 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 
 fun main() {
-    fun1()
+    fun2()
 }
 
 fun fun1() = runBlocking {
@@ -42,8 +42,8 @@ fun fun2() = runBlocking {
     }
     delay(1300L) // 等待一段时间
     println("main: I'm tired of waiting!")
-//    job.cancel()
+    job.cancel()
 //    job.join()
-    job.cancelAndJoin() // 取消一个作业并且等待它结束
+//    job.cancelAndJoin() // 取消一个作业并且等待它结束
     println("main: Now I can quit.")
 }

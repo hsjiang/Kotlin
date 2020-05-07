@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245fc56e-61aa-4735-8986-3f6f5cb79823" name="Default" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/GlobalScopeDemo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/Lambda1$G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/Lambda1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/PackageDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/VariableVSValueKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter3/ThrowDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter3/ThrowDemo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter5/KotlinVararg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter5/KotlinVararg.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter7/AbstractClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter7/AbstractClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CoroutineDemo1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CoroutineDemo1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/SuspendFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/SuspendFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553589244144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <created>1588762160125</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588762160125</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -340,34 +320,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1588761483433">
+    <state x="306" y="25" key="CommitChangelistDialog2" timestamp="1588817557995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588761483433" />
+    <state x="306" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588817557995" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1588818556654">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588818556654" />
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1587373753212" />
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1587365580334" />
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1587380338233" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1588755494397" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1588761483432">
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1588818556653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588761483432" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588818556653" />
     <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1587373753211" />
     <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1587365580334" />
     <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1587380338232" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1588755494396" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1588761483432">
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1588818556653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588761483432" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588818556653" />
     <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1587373753211" />
     <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1587365580333" />
     <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1587380338232" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1588755494396" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1588761483433">
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1588818556654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588761483433" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588818556654" />
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1587373753211" />
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1587365580334" />
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1587380338233" />
@@ -380,6 +364,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1587094481932" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588762162081">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588762162081" />
     <state x="421" y="179" width="598" height="486" key="find.popup" timestamp="1587369378438">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
