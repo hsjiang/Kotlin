@@ -2,223 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fedfea-7eac-4dd0-aa10-fa232c2cdaa9" name="Default" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/WithTimeOut.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/Lambda1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/chapter4/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/chapter5/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/chapter5/VarargDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/java/chapter6/JavaCovariant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/BasicTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/DataClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/Expr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/FieldsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/NotANumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/SealedClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter1/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/AUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ExtensionsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ForDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/IfExpressDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/IsDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/LabelDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/MyClass$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/NullSafetyDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/OperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/OperatorDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/PackageDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/RawStringKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ReturnDemoKt$sum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ReturnDemoKt$sumfReturn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ReturnDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo$concat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo$sum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo2$Inner$m$fun1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo2$Inner$m$fun2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo2$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThisDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/ThrowDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/VariableVSValueKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/WhenDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter3/WhileDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/ArrayDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/AsDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/Foo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/Goo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/NullDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/StringDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/TypedKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter4/UnitVSNothingDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/ADTKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/ADTKt$main$runnable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/ADTKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/KotlinVarargKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/ListDemoKt$main$$inlined$groupingBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/ListDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/MapDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter5/MutableSetDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/CovariantVSContravariantKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/Products.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter6/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/AbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/AbstractClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ActivityLifeState$onCreate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ActivityLifeState$onDestroy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ActivityLifeState$onStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ActivityLifeState$onStop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ActivityLifeState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/AnotationClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Bar1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Bar2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Content.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DataClassDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DelegatePropertiesDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DelegationDemoKt$$special$$inlined$observable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DelegationDemoKt$$special$$inlined$vetoable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DelegationDemoKt$lazyName$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/DelegationDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Description.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/EnumDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Factory$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Foo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/IntArithmetics$PLUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/IntArithmetics$TIMES.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/IntArithmetics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/InterfaceDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Milestone$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Milestone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/MilestoneImpl$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/MilestoneImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Multiply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NaN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemo$InnerNestedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemo$NestedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemo$doRun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemo$doRun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedClassDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedObject$InnerObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/NestedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt$XY$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt$anonymousObject$ano$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt$compare$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt$privateFoo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt$publicFoo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ObjectDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Project$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Project.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ProjectImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/ProxySubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/RealSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/SealedDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/Unit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/User1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter7/World2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/DefaultParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/DefaultParamBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/FunctionParametersKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/FunctionScopeDemoKt$sum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/FunctionScopeDemoKt$sum$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/FunctionScopeDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/MemberFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/RecursiveDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter8/SingleExpresstionDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ChannelAndPipeKt$testChannel$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ChannelAndPipeKt$testChannel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ChannelAndPipeKt$testClosingAndIterationChannels$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ChannelAndPipeKt$testClosingAndIterationChannels$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ChannelAndPipeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testChildrenCoroutine$1$request$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testChildrenCoroutine$1$request$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testChildrenCoroutine$1$request$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testChildrenCoroutine$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testDispatchersAndThreads$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testDispatchersAndThreads$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testDispatchersAndThreads$1$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testDispatchersAndThreads$1$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testDispatchersAndThreads$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testRunBlockingWithSpecifiedContext$1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testRunBlockingWithSpecifiedContext$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt$testRunBlockingWithSpecifiedContext$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/ContextsAndDispatchersKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutineDemo1Kt$firstCoroutineMethod1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutineDemo1Kt$firstCoroutineMethod1$1$c1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutineDemo1Kt$firstCoroutineMethod1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutineDemo1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt$GlobalScopeDeamon$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt$GlobalScopeDeamon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt$coroutineDaemon$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt$coroutineDaemon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt$daemonThread$t$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/CoroutinesAndDaemonThreadKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$coroutineScope1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$coroutineScope1$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$coroutineScope1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$doWork$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$doWork$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch2$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch3$1$job$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch4$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt$globalLaunch4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/GlobalScopeDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$doJob1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$doJob2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$testAsync$1$time$1$time1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$testAsync$1$time$1$time2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$testAsync$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt$testSequential$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter9/SuspendFunctionsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/kotlin/chapter_15/NetworkIOKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +20,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -243,6 +35,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -284,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter6/GenericType" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.example.kotlin.chapter7.EnumDemoKt">
+  <component name="RunManager" selected="Kotlin.CancelAndJoinDemoKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -311,14 +104,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlin.chapter1.BasicTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="CancelAndJoinDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter1.BasicTypeKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.CancelAndJoinDemoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithTimeOutKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.WithTimeOutKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -345,19 +151,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter3.ExtensionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.kotlin.chapter4.StringDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter4.StringDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -399,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CancelAndJoinDemoKt" />
+        <item itemvalue="Kotlin.WithTimeOutKt" />
         <item itemvalue="Kotlin.com.example.kotlin.chapter7.EnumDemoKt" />
         <item itemvalue="Kotlin.com.example.kotlin.chapter3.ExtensionsKt" />
         <item itemvalue="Kotlin.com.example.kotlin.chapter1.FieldsKt" />
-        <item itemvalue="Kotlin.com.example.kotlin.chapter4.StringDemoKt" />
-        <item itemvalue="Kotlin.com.example.kotlin.chapter1.BasicTypeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576334884161</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1588821757215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588821757215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -489,26 +289,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="25" key="CommitChangelistDialog2" timestamp="1588820960133">
+    <state x="248" y="25" key="CommitChangelistDialog2" timestamp="1588821757001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="248" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588820960133" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588821485267">
+    <state x="248" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588821757001" />
+    <state width="699" height="245" key="GridCell.Tab.0.bottom" timestamp="1588837288908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588821485267" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588821485266">
+    <state width="699" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588837288908" />
+    <state width="699" height="245" key="GridCell.Tab.0.center" timestamp="1588837288907">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588821485266" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588821485265">
+    <state width="699" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588837288907" />
+    <state width="699" height="245" key="GridCell.Tab.0.left" timestamp="1588837288907">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588821485265" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588821485266">
+    <state width="699" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588837288907" />
+    <state width="699" height="245" key="GridCell.Tab.0.right" timestamp="1588837288908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588821485266" />
+    <state width="699" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588837288908" />
     <state x="602" y="323" width="500" height="253" key="MultipleFileMergeDialog" timestamp="1588820610818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -517,6 +317,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588821592803" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588821759106">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588821759106" />
     <state x="512" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588820600209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -525,9 +329,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588820817446" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588820819588">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588821949188">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588820819588" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588821949188" />
   </component>
 </project>
