@@ -9,7 +9,8 @@ fun main(args: Array<String>) {
 interface Project {
     val name: String
     //    val owner: String = ""
-    val owner: String get() = "owner is me"
+    val owner: String
+        get() = "owner is me"
 
     fun save(str: String)
 
@@ -21,12 +22,20 @@ interface Project {
 interface Milestone {
     val name: String
 
-//    fun print(str: String) {
-//        println("Milestone $str")
-//    }
+    var stone: String//不能有初始化器，不能有幕后字段
+
+    fun print(str: String) {
+        println("Milestone $str")
+    }
 }
 
-class ProjectImpl : Project, Milestone {
+interface MilestoneImpl : Milestone {
+    override var stone //不能有初始化器，不能有幕后字段
+        get() = "MilestoneImpl"
+        set(value) {}
+}
+
+class ProjectImpl : Project, MilestoneImpl {
 
     override val name: String
         get() = "impl"
@@ -35,9 +44,9 @@ class ProjectImpl : Project, Milestone {
 
     }
 
-//    override fun print(str: String) {
-//        super<Milestone>.print(str)
-//        super<Project>.print(str)
-//        println("ProjectImpl $str")
-//    }
+    override fun print(str: String) {
+        super<MilestoneImpl>.print(str)
+        super<Project>.print(str)
+        println("ProjectImpl $str")
+    }
 }

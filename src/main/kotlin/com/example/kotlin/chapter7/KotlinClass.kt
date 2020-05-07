@@ -18,3 +18,32 @@ class World constructor(var arg1: String) {
         this.name = arg1
     }
 }
+
+class World2 private constructor() {
+}
+
+open class Foo {
+    open val x: Int
+        get() {
+            return 1
+        }
+    open val y: Int get() = 2
+
+    open var z: Int = 3
+}
+
+class Bar1 : Foo() {
+    override val x: Int
+        get() = 1
+
+    override val y: Int
+        get() = 2
+
+     override var z: Int
+        get() = super.z
+        set(value) {}
+}
+
+class Bar2(override val x: Int):Foo(){
+
+}

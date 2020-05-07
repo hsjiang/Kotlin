@@ -1,13 +1,11 @@
 package com.example.kotlin.chapter9
 
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 
 fun main(args: Array<String>) {
-//    daemonThread()
     coroutineDaemon()
+//    GlobalScopeDeamon()
+    println("end")
 }
 
 fun daemonThread() {
@@ -30,5 +28,16 @@ fun coroutineDaemon() = runBlocking {
         }
     }
     delay(2000)
+}
+
+//全局协程像守护线程
+fun GlobalScopeDeamon() = runBlocking {
+    GlobalScope.launch {
+        repeat(1000) { i ->
+            delay(500L)
+            println("I'm sleeping $i...")
+        }
+    }
+    delay(1300L) // 在延迟后退出
 }
 
