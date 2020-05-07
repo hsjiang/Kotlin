@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245fc56e-61aa-4735-8986-3f6f5cb79823" name="Default" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CancelAndJoinDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1acLx2UOywFDqmHUEAZBUjCndq9" />
@@ -54,7 +51,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -170,7 +167,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -271,40 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1588762160125</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1588818566227</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588818566227</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ThisDemoTest_mTest - 2018.09.12 at 16h 53m 55s.xml">
-      <configuration name="ThisDemoTest.mTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuperDemoTest_loveTest - 2018.09.12 at 17h 21m 40s.xml">
-      <configuration name="SuperDemoTest.loveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuperDemoTest_loveTest - 2018.09.12 at 17h 22m 56s.xml">
-      <configuration name="SuperDemoTest.loveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuperDemoTest - 2018.09.12 at 17h 24m 37s.xml">
-      <configuration name="SuperDemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThisDemoTest_concatTest - 2018.09.17 at 16h 17m 28s.xml">
-      <configuration name="ThisDemoTest.concatTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoroutinesAndDaemonThreadTest_daemonThreadTest - 2019.03.25 at 10h 30m 17s.xml">
-      <configuration name="CoroutinesAndDaemonThreadTest.daemonThreadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoroutinesAndDaemonThreadTest_daemonThreadTest - 2019.03.25 at 10h 31m 44s.xml">
-      <configuration name="CoroutinesAndDaemonThreadTest.daemonThreadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoroutinesAndDaemonThreadTest - 2019.03.25 at 10h 32m 01s.xml">
-      <configuration name="CoroutinesAndDaemonThreadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoroutinesAndDaemonThreadTest_daemonThreadTest - 2019.03.25 at 10h 32m 28s.xml">
-      <configuration name="CoroutinesAndDaemonThreadTest.daemonThreadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoroutinesAndDaemonThreadTest_coroutineDaemonTest - 2019.03.25 at 10h 45m 39s.xml">
-      <configuration name="CoroutinesAndDaemonThreadTest.coroutineDaemonTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,10 +292,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="25" key="CommitChangelistDialog2" timestamp="1588817557995">
+    <state x="306" y="25" key="CommitChangelistDialog2" timestamp="1588818667813">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="306" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588817557995" />
+    <state x="306" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588818667813" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1588818556654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -356,18 +328,19 @@
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1587365580334" />
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1587380338233" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1588755494396" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1587031767566">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1588820076910">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588820076910" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1587031767566" />
     <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1587094481932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1587094481932" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588762162081">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588818994617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588762162081" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588818994617" />
     <state x="421" y="179" width="598" height="486" key="find.popup" timestamp="1587369378438">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
