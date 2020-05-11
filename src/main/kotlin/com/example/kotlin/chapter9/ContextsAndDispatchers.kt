@@ -3,9 +3,9 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 
 fun main(args: Array<String>) {
-//    testDispatchersAndThreads()
+    testDispatchersAndThreads()
 
-    testRunBlockingWithSpecifiedContext()
+//    testRunBlockingWithSpecifiedContext()
 
 //    testChildrenCoroutine()
 }
@@ -81,4 +81,13 @@ fun testChildrenCoroutine() = runBlocking {
 
 fun jobStatus(msg: String, job: Job?) {
     println("$msg: ${job?.isActive},${job?.isCompleted},${job?.isCancelled}")
+}
+
+//specify coroutine name,this name is used in debugging mode
+fun specifyCoroutineName() = runBlocking {
+    val job = async(CoroutineName("123")) {
+        delay(2000)
+        println("job complete")
+    }
+    job.await()
 }

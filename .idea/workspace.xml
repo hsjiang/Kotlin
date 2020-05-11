@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fedfea-7eac-4dd0-aa10-fa232c2cdaa9" name="Default" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/ComposingSuspendingFuctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CoroutineExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/SuperVisorJobDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/ContextsAndDispatchers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/ContextsAndDispatchers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectId" id="1bbaccw3yQSft7qtq2aQ3Bki5S5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -60,6 +62,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576344980233" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="options.lastSelected" value="project.propGUI" />
@@ -76,7 +80,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter6/GenericType" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ComposingSuspendingFuctionsKt">
+  <component name="RunManager" selected="Kotlin.CoroutineExceptionsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -116,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComposingSuspendingFuctionsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="com.example.kotlin-kotlin_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.ComposingSuspendingFuctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComposingSuspendingFuctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin_main" />
       <option name="VM_PARAMETERS" />
@@ -129,40 +146,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithTimeOutKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_main" />
+    <configuration name="ContextsAndDispatchersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="com.example.kotlin-kotlin_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.WithTimeOutKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.ContextsAndDispatchersKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlin.chapter3.ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_main" />
+    <configuration name="CoroutineExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="com.example.kotlin-kotlin_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter3.ExtensionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.kotlin.chapter7.EnumDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter7.EnumDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.CoroutineExceptionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CoroutineExceptionsKt" />
+        <item itemvalue="Kotlin.ContextsAndDispatchersKt" />
+        <item itemvalue="Kotlin.ComposingSuspendingFuctionsKt (1)" />
         <item itemvalue="Kotlin.ComposingSuspendingFuctionsKt" />
         <item itemvalue="Kotlin.CancelAndJoinDemoKt" />
-        <item itemvalue="Kotlin.WithTimeOutKt" />
-        <item itemvalue="Kotlin.com.example.kotlin.chapter7.EnumDemoKt" />
-        <item itemvalue="Kotlin.com.example.kotlin.chapter3.ExtensionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -299,22 +303,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="248" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588838727968" />
-    <state width="699" height="245" key="GridCell.Tab.0.bottom" timestamp="1588848217352">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589192571535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588848217351" />
-    <state width="699" height="245" key="GridCell.Tab.0.center" timestamp="1588848217351">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589192571535" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589192571534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588848217351" />
-    <state width="699" height="245" key="GridCell.Tab.0.left" timestamp="1588848217350">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589192571534" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589192571534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588848217350" />
-    <state width="699" height="245" key="GridCell.Tab.0.right" timestamp="1588848217351">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589192571534" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1588939218766" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589192571535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588848217351" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589192571535" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
     <state x="602" y="323" width="500" height="253" key="MultipleFileMergeDialog" timestamp="1588820610818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -331,10 +339,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="512" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1588820600209" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1588820817446">
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1589191878779">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588820817446" />
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589191878779" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588821949188">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
