@@ -2,10 +2,12 @@ package com.example.kotlin.chapter9
 
 import kotlinx.coroutines.*
 import java.io.IOException
+import java.lang.AssertionError
 
 fun main() {
 //    exception2()
-    suppressedException()
+//    suppressedException()
+    exceptionHandler()
 }
 
 private val uncaughtExceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable ->
@@ -34,16 +36,26 @@ private fun exception1() = runBlocking {
 }
 
 private fun exception2() = runBlocking {
-    val job = CoroutineScope(Dispatchers.Default).launch {
-        val child = launch(uncaughtExceptionHandler) {
-            delay(1000)
+    val job = SupervisorJob()
+    with(CoroutineScope(coroutineContext + job)) {
+        val child1 = launch(uncaughtExceptionHandler) {
+            println("child1 throw a ArithmeticException")
             throw ArithmeticException()
         }
-        child.join()
-        println("job is not cancelled")
+        val child2 = launch {
+            child1.join()
+            println("child1 is cancelled: ${child1.isCancelled}, but second one is still active")
+            try {
+                delay(Long.MAX_VALUE)
+            } finally {
+                // 但是取消了监督的传播
+                println("Second child is cancelled because supervisor is cancelled")
+            }
+        }
+        child1.join()
+        job.cancel()
+        child2.join()
     }
-    job.join()
-
     delay(1000)
     println("Parent is not cancelled")
 }
@@ -65,6 +77,12 @@ private fun exceptionHandler() = runBlocking {
             delay(10)
             println("Second child throws an exception")
             throw ArithmeticException()
+        }
+        try {
+            delay(Long.MAX_VALUE)
+        } finally {
+            // 但是取消了监督的传播
+            println("Second child is cancelled because supervisor is cancelled")
         }
     }
     job.join()

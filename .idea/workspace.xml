@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fedfea-7eac-4dd0-aa10-fa232c2cdaa9" name="Default" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/FlowDemo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CoroutineExceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/CoroutineExceptions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/SuperVisorJobDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter9/SuperVisorJobDemo.kt" afterDir="false" />
     </list>
@@ -69,17 +83,17 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="project.structure.side.proportion" value="0.40229884" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/kotlin/chapter6/GenericType" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SuperVisorJobDemoKt">
+  <component name="RunManager" selected="Kotlin.FlowDemoKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -106,34 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposingSuspendingFuctionsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="com.example.kotlin-kotlin_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.ComposingSuspendingFuctionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComposingSuspendingFuctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.ComposingSuspendingFuctionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContextsAndDispatchersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="com.example.kotlin-kotlin_main" />
+      <module name="kotlin_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -145,27 +133,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoroutineExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="com.example.kotlin-kotlin_main" />
+    <configuration name="FlowDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.CoroutineExceptionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuperVisorJobDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="com.example.kotlin-kotlin_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.SuperVisorJobDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlin.chapter9.FlowDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.SuperVisorJobDemoKt" />
-        <item itemvalue="Kotlin.CoroutineExceptionsKt" />
+        <item itemvalue="Kotlin.FlowDemoKt" />
         <item itemvalue="Kotlin.ContextsAndDispatchersKt" />
-        <item itemvalue="Kotlin.ComposingSuspendingFuctionsKt (1)" />
-        <item itemvalue="Kotlin.ComposingSuspendingFuctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589194575209</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <created>1589280676095</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589280676095</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,54 +284,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="25" key="CommitChangelistDialog2" timestamp="1589194574968">
+    <state x="413" y="69" key="#ContextsAndDispatchersKt" timestamp="1589449405332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="248" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589194574968" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589278346908">
+    <state x="413" y="69" key="#ContextsAndDispatchersKt/0.0.1440.900@0.0.1440.900" timestamp="1589449405332" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589449548817">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589278346908" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589449548817" />
+    <state x="248" y="25" key="CommitChangelistDialog2" timestamp="1589280675918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="248" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589280675918" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589453001612">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589453001612" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589440453420" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589194979280" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589278346906">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589447129382" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589453001611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589278346906" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589453001611" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1589440453419" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589194979279" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589278346905">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589447129381" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589453001610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589278346905" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1588939218766" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589453001610" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1589440453417" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589194979279" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589278346907">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589447129381" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589453001611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589278346907" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1588939218767" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589453001611" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1589440453419" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589194979280" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589447129382" />
     <state x="602" y="323" width="500" height="253" key="MultipleFileMergeDialog" timestamp="1588820610818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="602" y="323" width="500" height="253" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1588820610818" />
-    <state x="229" y="63" key="SettingsEditor" timestamp="1588821592803">
+    <state x="229" y="23" width="1024" height="804" key="SettingsEditor" timestamp="1589449491092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588821592803" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1589194576787">
+    <state x="229" y="23" width="1024" height="804" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589449491092" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1589280677686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589194576787" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589280677686" />
     <state x="512" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588820600209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="512" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1588820600209" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1589267299326">
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1589449279605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589267299326" />
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589449279605" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588821949188">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
