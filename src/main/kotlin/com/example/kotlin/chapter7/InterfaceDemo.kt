@@ -40,8 +40,8 @@ interface MilestoneImpl : Milestone {
 
 class ProjectImpl : Project, MilestoneImpl {
 
-    override val name: String
-        get() = "impl"
+    override val name: String = "impl"
+//       or get() = "impl"
 
     override fun save(str: String) {
 
