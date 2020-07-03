@@ -2,10 +2,9 @@ package com.example.kotlin.chapter9
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
-import kotlin.coroutines.CoroutineContext
 
 fun main() {
-//    useSequenceToCompute()
+    useSequenceToCompute()
 //    flowList()
 //    flowIsCold()
 //    cancelOfFlow()
