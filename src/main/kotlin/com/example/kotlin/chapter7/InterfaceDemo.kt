@@ -20,9 +20,12 @@ interface Project {
 }
 
 interface Milestone {
-    val name: String
+    val name: String//不能有初始化器，不能有幕后字段
 
-    var stone: String//不能有初始化器，不能有幕后字段
+    var stone: String
+        //不能有初始化器，不能有幕后字段
+        get() = ""
+        set(value) {}
 
     fun print(str: String) {
         println("Milestone $str")
@@ -37,14 +40,17 @@ interface MilestoneImpl : Milestone {
 
 class ProjectImpl : Project, MilestoneImpl {
 
-    override val name: String
-        get() = "impl"
+    override val name: String = "impl"
+//       or get() = "impl"
 
     override fun save(str: String) {
 
     }
 
     override fun print(str: String) {
+        //Many subtypes available,please specify the one you mean in angle brackets,e.g. 'super.<Foo>'
+//        super.print(str)
+
         super<MilestoneImpl>.print(str)
         super<Project>.print(str)
         println("ProjectImpl $str")
