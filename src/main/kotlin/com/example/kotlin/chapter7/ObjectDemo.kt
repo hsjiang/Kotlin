@@ -160,5 +160,6 @@ fun companionInvoke() {
     }
 
     val f22: Factory2 = Factory3
+    f22.funOfFactory2()
 }
 
