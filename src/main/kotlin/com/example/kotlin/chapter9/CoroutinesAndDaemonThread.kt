@@ -3,21 +3,22 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 
 fun main(args: Array<String>) {
-    coroutineDaemon()
+//    daemonThread()
+//    coroutineDaemon()
 //    GlobalScopeDeamon()
     println("end")
 }
 
 fun daemonThread() {
     val t = Thread {
-        repeat(10) { i ->
+        repeat(100) { i ->
             println("im sleeping $i ...")
             Thread.sleep(500)
         }
     }
 //    t.isDaemon = true
     t.start()
-    Thread.sleep(2000)
+//    Thread.sleep(2000)
 }
 
 fun coroutineDaemon() = runBlocking {

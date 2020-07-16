@@ -5,7 +5,7 @@ import kotlin.coroutines.CoroutineContext
 
 fun main(args: Array<String>) {
 //    globalLaunch3()
-    coroutineScope1()
+//    coroutineScope1()
     println("end")
 }
 

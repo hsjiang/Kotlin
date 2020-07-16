@@ -8,6 +8,8 @@ fun main(args: Array<String>) {
 //    testRunBlockingWithSpecifiedContext()
 
 //    testChildrenCoroutine()
+
+//    unconfinedFun()
 }
 
 //协程上下文包含一个协程调度程序，他可以指定由哪个线程来执行协程
@@ -15,16 +17,22 @@ fun testDispatchersAndThreads() = runBlocking {
     val jobs = arrayListOf<Job>()
     jobs += launch(Dispatchers.Unconfined) {
         println("Unconfined: I'm working in thread ${Thread.currentThread()}")
+        delay(1)
+        println("Unconfined: After delay I'm working in thread ${Thread.currentThread()}")
     }
     jobs += launch(coroutineContext) {
         println("coroutineContext: I'm working in thread ${Thread.currentThread()}")
     }
     jobs += launch(Dispatchers.Default) {
-        println("CommonPool: I'm working in thread ${Thread.currentThread()}")
+        println("Default: I'm working in thread ${Thread.currentThread()}")
+    }
+    jobs += launch(Dispatchers.IO) {
+        println("IO: I'm working in thread ${Thread.currentThread()}")
     }
     jobs += launch(newSingleThreadContext("myThread")) {
         println("newSingleThreadContext: I'm working in thread ${Thread.currentThread()}")
     }
+
     jobs.forEach { it.join() }
 }
 
@@ -90,4 +98,15 @@ fun specifyCoroutineName() = runBlocking {
         println("job complete")
     }
     job.await()
+}
+
+fun unconfinedFun() = runBlocking {
+    withContext(Dispatchers.Unconfined) {
+        println(1)
+        withContext(Dispatchers.Unconfined) { // Nested unconfined
+            println(2)
+        }
+        println(3)
+    }
+    println("Done")
 }

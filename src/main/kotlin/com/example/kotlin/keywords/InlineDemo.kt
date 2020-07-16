@@ -37,6 +37,8 @@ inline class Inline1Class(val info: Info) {
 //        }
 //
 //    val size1: Int = info.info.length
+    val size1: Int
+        get() = info.info.length
 
     val length: Int
         get() = 1

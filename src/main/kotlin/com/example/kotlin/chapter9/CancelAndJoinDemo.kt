@@ -3,7 +3,9 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 
 fun main() {
-    fun2()
+//    fun2()
+//    joinFun()
+    deferredReturnFun()
 }
 
 fun fun1() = runBlocking {
@@ -50,4 +52,28 @@ fun fun2() = runBlocking {
     job.join()
 //    job.cancelAndJoin() // 取消一个作业并且等待它结束
     println("main: Now I can quit.")
+}
+
+fun joinFun() = runBlocking {
+    val job1 = launch {
+        delay(2000)
+        println("I'm first launch")
+    }
+    println("I'm waiting")
+    job1.join()
+    launch {
+        delay(1000)
+        println("I'm second launch")
+    }
+}
+
+fun deferredReturnFun() = runBlocking {
+    val a1 = async {
+        delay(2000)
+        println("get value success")
+        "value"
+    }
+    println("I'm waiting")
+    println("Value:${a1.await()}")
+    println("finished")
 }

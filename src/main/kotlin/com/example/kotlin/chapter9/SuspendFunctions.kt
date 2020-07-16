@@ -7,7 +7,7 @@ import kotlin.system.measureTimeMillis
 fun main(args: Array<String>) {
 //    testSequential()
 
-//    testAsync()
+    testAsync()
 }
 
 fun testSequential() = runBlocking {

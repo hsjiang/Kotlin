@@ -10,22 +10,27 @@ import java.util.*
 //2.对象声明是在第一次被访问到时延迟初始化的；
 //3.伴生对象的初始化是在相应的类被加载（解析）时，与 Java 静态初始化器的语义相匹配
 
+@ExperimentalStdlibApi
 fun main(args: Array<String>) {
-    println("${User.userName} ${User.password}")
+//    println("${User.userName} ${User.password}")
+//
+//    println(NestedObject.InnerObject.name)
 
-    println(NestedObject.InnerObject.name)
+    printWhoIm(NestedObjectChild1)
 
 //    println(XY.x)
 
 //    publicFoo(1).value
-    privateFoo().value
-
-    println(Factory.print())
-    println(Factory.Companion.print())
+//    privateFoo().value
+//
+//    println(Factory.print())
+//    println(Factory.Companion.print())
+//
+    println(ExactlyNameCompanion.MyKey)
 }
 
 //对象声明
-object User : NestedObject() {
+object User {
     val id: Int
 
     val userName: String = "admin"
@@ -69,6 +74,18 @@ open class NestedObject {
 //        }
     }
 
+    open fun printWhoIm() = println("I'm NestedObject")
+}
+
+object NestedObjectChild1 : NestedObject(){
+    override fun printWhoIm() {
+//        super.printWhoIm()
+        println("I'm NestedObjectChild1")
+    }
+}
+
+fun printWhoIm(who: NestedObject) {
+    who.printWhoIm()
 }
 
 //匿名object
@@ -110,7 +127,7 @@ fun compare() {
 
 
 //伴生对象，一个类只能有一个伴生对象
-class Factory {
+open class Factory {
     companion object {
         fun print() {
             print("im factory1's companion object")
@@ -161,5 +178,10 @@ fun companionInvoke() {
 
     val f22: Factory2 = Factory3
     f22.funOfFactory2()
+}
+
+interface ExactlyNameCompanion {
+
+    companion object MyKey : Factory()
 }
 
