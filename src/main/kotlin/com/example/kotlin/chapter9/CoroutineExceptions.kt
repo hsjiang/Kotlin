@@ -3,11 +3,13 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 import java.io.IOException
 import java.lang.AssertionError
+import kotlin.coroutines.EmptyCoroutineContext
 
 fun main() {
+    exception1()
 //    exception2()
 //    suppressedException()
-    exceptionHandler()
+//    exceptionHandler()
 }
 
 private val uncaughtExceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable ->

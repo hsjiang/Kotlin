@@ -3,8 +3,10 @@ package com.example.kotlin.chapter9
 import kotlinx.coroutines.*
 
 fun main() {
-    useSupervisorJob()
+//    useSupervisorJob()
 //    useSupervisorScope()
+//    supervisorJob2()
+    parentJob()
 }
 
 /**
@@ -58,4 +60,49 @@ private fun useSupervisorScope() = runBlocking {
         println("supervisorScope is completing")
     }
     println("scope is completed")
+}
+
+private fun supervisorJob2() = runBlocking {
+    val scope = CoroutineScope(SupervisorJob())
+    val job1 = scope.launch {
+        delay(2000)
+        println("First child is failing")
+        throw AssertionError("First child is cancelled")
+    }
+
+    val job2 = scope.launch {
+        job1.join()
+        if (isActive) {
+            println("job2 isActive: $isActive")
+        }
+    }
+    job2.join()
+    println("Parent is still active")
+}
+
+private fun parentJob() = runBlocking {
+    val scope = CoroutineScope(SupervisorJob())
+
+    val sJob1 = scope.launch {
+        // new coroutine -> can suspend
+        val job1 = launch {
+            delay(1000)
+            println("First child is failing")
+            throw AssertionError("First child is cancelled")
+        }
+        val job2 = launch {
+            job1.join()
+            if (isActive) {
+                println("job2 isActive: $isActive")
+            }
+        }
+        job2.join()
+        println("Parent is still active")
+    }
+    val sJob2 = scope.launch {
+        sJob1.join()
+        println("sJob2 is still active")
+    }
+    sJob2.join()
+    println("runBlocking finished")
 }
