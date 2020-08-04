@@ -4,6 +4,7 @@ import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext
 
 fun main(args: Array<String>) {
+    globalLaunch2()
 //    globalLaunch3()
 //    coroutineScope1()
     println("end")
@@ -22,6 +23,7 @@ private fun globalLaunch2() = runBlocking {
     GlobalScope.launch {
         delay(1000)
         println(" world!")
+        println(" Thread: ${Thread.currentThread().name}")
     }
     print("hello, ")
     delay(2000)

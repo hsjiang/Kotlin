@@ -4,7 +4,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
 fun main() {
-    useSequenceToCompute()
+//    useSequenceToCompute()
 //    flowList()
 //    flowIsCold()
 //    cancelOfFlow()
@@ -12,7 +12,9 @@ fun main() {
 //    opTake()
 //    terminalOperators()
 //    opZip()
-    flatteningFlows()
+//    flatteningFlows()
+//    opCollectLatest()
+    opConflate()
 }
 
 private fun useSequenceToCompute() {
@@ -181,6 +183,32 @@ private fun flatteningFlows() = runBlocking {
             .collect { value -> // 收集并打印
                 println("$value at ${System.currentTimeMillis() - startTime} ms from start")
             }
+}
+
+private fun opCollectLatest() = runBlocking {
+    flow {
+        emit(1)
+        delay(50)
+        emit(2)
+    }.collectLatest { value ->
+        println("Collecting $value")
+        delay(100) // Emulate work
+        println("$value collected")
+    }
+}
+
+private fun opConflate() = runBlocking {
+    flow {
+        for (i in 1..30) {
+            delay(100)
+            emit(i)
+            println("emit $i")
+        }
+    }.conflate().collect { value ->
+        println("Collecting $value")
+        delay(1000) // Emulate work
+        println("$value collected")
+    }
 }
 
 //buffer 缓冲，并发运行 flow 中发射元素的代码以及收集的代码， 而不是顺序运行它们

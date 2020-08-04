@@ -10,3 +10,7 @@
 
 协程内部机制
 Continuation对象
+三层嵌套DispatchedContinuation,BaseContinuationImpl,AbstractCoroutine
+
+
+//TODO [select] [channel]

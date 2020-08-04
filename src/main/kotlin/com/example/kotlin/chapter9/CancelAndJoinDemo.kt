@@ -71,6 +71,7 @@ fun deferredReturnFun() = runBlocking {
     val a1 = async {
         delay(2000)
         println("get value success")
+        println("Thread: ${Thread.currentThread().name}")
         "value"
     }
     println("I'm waiting")
