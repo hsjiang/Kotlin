@@ -85,3 +85,38 @@ class Description : ReadWriteProperty<DelegatePropertiesDemo, String> {
 
     }
 }
+
+//类代理
+class ListWithTrash<T>(val innerList: MutableList<T> = ArrayList()) : MutableCollection<T> by innerList {
+
+    var trashElement: T? = null
+
+    override fun remove(element: T): Boolean {
+        trashElement = element
+        return innerList.remove(element)
+    }
+}
+
+//属性代理
+class Person(name: String, lastname: String) {
+    var name: String by FormatDelegate()
+    var lastname: String by FormatDelegate()
+
+    var updateCount = 0
+}
+
+class FormatDelegate : ReadWriteProperty<Any?, String> {
+
+    private var formattedString = ""
+
+    override fun getValue(thisRef: Any?, property: KProperty<*>): String {
+        return formattedString
+    }
+
+    override fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
+        if (thisRef is Person) {
+            thisRef.updateCount++
+        }
+        formattedString = value.toLowerCase().capitalize()
+    }
+}

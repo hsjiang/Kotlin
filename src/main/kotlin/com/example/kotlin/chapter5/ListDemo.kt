@@ -42,7 +42,7 @@ fun main(args: Array<String>) {
 
     println()
 
-    println(list.maxBy { if (it > 2) it - 3 else it })
+    println(list.maxByOrNull { if (it > 2) it - 3 else it })
 
     println(list.sumBy { it + 1 })
 

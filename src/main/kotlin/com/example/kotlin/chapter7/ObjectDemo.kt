@@ -18,14 +18,15 @@ fun main(args: Array<String>) {
 
     printWhoIm(NestedObjectChild1)
 
-//    println(XY.x)
+    println(XY.x)
 
 //    publicFoo(1).value
 //    privateFoo().value
 //
-//    println(Factory.print())
-//    println(Factory.Companion.print())
-//
+    println(Factory.print())
+    println(Factory.Companion.print())
+    println(Factory2.print())
+
     println(ExactlyNameCompanion.MyKey)
 }
 
@@ -56,6 +57,10 @@ open class NestedObject {
 
     object InnerObject {
         val name: String = "hhhh"
+
+        object objectInInnerObject {
+            val x = 1
+        }
     }
 
     //可以嵌套到非内部类中
@@ -77,7 +82,7 @@ open class NestedObject {
     open fun printWhoIm() = println("I'm NestedObject")
 }
 
-object NestedObjectChild1 : NestedObject(){
+object NestedObjectChild1 : NestedObject() {
     override fun printWhoIm() {
 //        super.printWhoIm()
         println("I'm NestedObjectChild1")
@@ -90,7 +95,7 @@ fun printWhoIm(who: NestedObject) {
 
 //匿名object
 //匿名对象只可以用在本地和私有作用域中声明的类型
-val XY = object {
+private val XY = object {
     var x = 0.0f
     var y = 0.0f
 }
